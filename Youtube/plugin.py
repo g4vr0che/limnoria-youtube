@@ -55,7 +55,7 @@ except:
     _ = lambda x: x
     internationalizeDocstring = lambda x: x
 
-def _readApiKey(fil='api-key.txt'):
+def _readApiKey(fil='key.api'):
     log.info('Loading API key')
     dir_path = Path(os.path.dirname(os.path.realpath(__file__)))
     log.info(str(dir_path))
